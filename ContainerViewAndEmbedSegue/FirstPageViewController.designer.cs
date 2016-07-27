@@ -14,16 +14,8 @@ namespace ContainerViewAndEmbedSegue
     [Register ("FirstPageViewController")]
     partial class FirstPageViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        ContainerViewAndEmbedSegue.FirstPageViewController FirstPage { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (FirstPage != null) {
-                FirstPage.Dispose ();
-                FirstPage = null;
-            }
         }
     }
 }

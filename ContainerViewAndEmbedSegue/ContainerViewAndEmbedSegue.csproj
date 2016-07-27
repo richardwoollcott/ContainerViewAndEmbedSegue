@@ -115,13 +115,13 @@
     <Compile Include="HomePageViewController.designer.cs">
       <DependentUpon>HomePageViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="FirstPageViewController.cs" />
-    <Compile Include="FirstPageViewController.designer.cs">
-      <DependentUpon>FirstPageViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="SecondPageViewController.cs" />
     <Compile Include="SecondPageViewController.designer.cs">
       <DependentUpon>SecondPageViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstPageViewController.cs" />
+    <Compile Include="FirstPageViewController.designer.cs">
+      <DependentUpon>FirstPageViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
